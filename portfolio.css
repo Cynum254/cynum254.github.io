@@ -1,0 +1,308 @@
+body{
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    font-family:'Edu TAS Beginner', cursive;
+}
+nav {
+    display: flex;
+    background-color: #326799;
+    justify-content: center;
+    position:fixed;
+    width:100%;
+    z-index: 1; 
+
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    list-style: none;
+}
+
+nav ul li a {
+    font-size: 16px;
+    padding: 0 15px;
+    color: white;
+    transition: 0.2s;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    transition: 0.2s;
+    color: black;
+}
+
+.container {
+
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+ 
+
+.hero {
+    padding-top: 50px;
+}
+
+.hero img {
+    border-style:double;
+    border-radius: 50%;
+    margin: 0 auto;
+    max-width: 200px;
+    display: block;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    margin: 30px 0px 100px;
+}
+
+.aboutme {
+    width: 90;
+    max-width: 1100px;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    padding: 40px 50px 70px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 0px rgb(0 0 0 / 40%), -10px -10px 0px rgb(255 114 114 / 80%);
+}
+
+.aboutme-section {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.aboutme-img{
+    height: 450px;
+    width: 400px;
+    background-image: url("images/Luk2.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.aboutme-text {
+    height: auto;
+    width: 40%;
+    margin-left: 40px;
+    text-align: left;
+    font-size: 150%;
+}
+ 
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+#projects {
+    padding: 5px;
+    margin: 5%;
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+#projects h2{
+    color: white;
+    margin-top: 5%;
+}
+
+.kenya-project {
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+    background-image: url(images/Luk3.jpg);
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+    border: dotted;
+}
+
+.text {
+    position: absolute;
+    height: 20px;
+    width: 95%;
+    left: 0;
+    bottom: 2;
+    z-index: 2;
+    background-color: white;
+    overflow:hidden;
+    transition: 0.2s;
+    padding: 20px;
+}
+
+.text:hover {
+    height: 465px;
+    transition: 0.3s;
+}
+ .text h3 {
+    margin-top: 3px;
+ }
+
+ .content {
+    color: black;
+ }
+
+ .button {
+    border: 5px solid lightblue; 
+    border-radius: 10px;
+    width: 160px;
+    margin-bottom: 100px;
+    margin-left: 10;
+ }
+
+ .contact {
+    width: 100%;
+    height: auto;
+    padding:75px 0px 50px 0;
+    text-align: center;
+    background-color: rgba (3,3,3,45%);
+ }
+
+ .contact p {
+    margin-bottom: 50px;
+ }
+
+ .contact h2, .contact p {
+    color: white;
+ }
+
+ .contact-form {
+    max-width: 800px;
+    display: flex;
+    text-align: left;
+    max-width: 1100px;
+    margin: 0 auto;
+    color: white;
+ }
+
+ .contact-form label {
+    display: block;
+    margin-bottom: 9PX;
+ }
+
+ .message {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+ }
+
+ .message textarea {
+    border-radius: 5px;
+    border: 0px;
+ }
+ .contact-details {
+    flex: 1;
+    margin-right: 50px;
+ }
+
+ .contact-details input {
+    width: 400px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+ }
+ .message button {
+    color:lightpink;
+    border: 0px;
+    border-radius: 5px;
+    background: white;
+    width: 140px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+
+ .message button:hover {
+    background-color:#FB93D7;
+    color: white;
+    transition: 0.2s;
+ }
+
+ footer {
+    height: 90px;
+    background-color:#326799;
+ }
+
+ footer .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+ }
+ .social-media {
+    font-size: 200%;
+    width: auto;
+    margin-left: auto;
+ }
+ 
+ .social-media a i {
+    color: white;
+    transition: 0.2s;
+ }
+
+ .social-media a i:hover {
+    color:#0866FF;
+    transition: 0.2s;
+ }
+
+ .copyright {
+    color: white;
+ }
+
+ div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
+
+
+#myparents h2 {
+    text-align: center;
+    margin-top: 30px 0px 100px;
+    color: white;
+}
+
+.parents img {
+    margin-left: 250px;
+    border-style: dotted dashed;
+    
+    
+}
+
+.parents p {
+    text-align: center;
+    font-size: 150%;
+    background-color: white;
+
+}
+
